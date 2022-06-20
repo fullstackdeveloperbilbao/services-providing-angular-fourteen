@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 console.log("%cSharedService" + "%c bundled", "color:red", "color:green");
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'any'
 })
 export class SharedService {
 
