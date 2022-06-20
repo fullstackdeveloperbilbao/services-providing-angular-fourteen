@@ -4,7 +4,8 @@ import { SharedService } from '../shared/shared.service';
 @Component({
   selector: 'app-eager-loaded-one',
   templateUrl: './eager-loaded-one.component.html',
-  styleUrls: ['./eager-loaded-one.component.scss']
+  styleUrls: ['./eager-loaded-one.component.scss'],
+  providers: [SharedService]
 })
 export class EagerLoadedOneComponent implements OnInit {
 
